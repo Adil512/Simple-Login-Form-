@@ -1,0 +1,64 @@
+body{
+            background-color:#008000;
+
+
+            margin: 0px;
+            padding: 0px;
+        }
+        #form_form{
+            width:850px;
+            height: 1000px
+            font-size:18px;
+            font-family:cursive;
+            background-color: antiquewhite;
+            border: 1px solid blue;
+            text-align: center;
+            margin-left: 320px;
+            margin-top: 150px;
+            
+        }
+        button{
+            background:  #006600;
+
+
+            color:white;
+            width: 130px;
+            height: 40px;
+        }
+        input[type="text"]{
+            height: 40px;
+            width: 200px;
+            background-color: lightslategrey;
+            border:2px solid white;
+            border-radius: 10px;
+        }
+        input[type="password"]{
+            height: 40px;
+            width: 200px;
+            background-color: lightslategrey;
+            border:2px solid white;
+            border-radius: 10px;
+        }
+    <form id="form_form">
+     <h1>Simple Login Form</h1>
+      <label for="">User Name:</label>
+       <input type="text" name="text" placeholder="firstname" required>
+       <br>
+       <br>
+            
+            
+            <label for="">Email:</label>
+
+       <input type="text" name="email" placeholder="email" required>
+       <br>
+       <br>
+             <label for="">Password:</label>
+
+       <input type="password" name="password" placeholder="lastname" required>
+       <br>
+       <br>
+            
+       <button>Login!!</button>
+       <button>Register Here!</button>
+       <br>
+       <br>
